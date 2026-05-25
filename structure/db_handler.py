@@ -13,6 +13,9 @@ def init_db():
         conn.executescript(f.read())
     conn.close()
 
+
+
+
 def load_test_data():
     conn = get_connection()
     with open('test_data.sql', 'r', encoding='utf-8') as f:

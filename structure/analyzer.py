@@ -73,7 +73,7 @@ def generate_plot(data):
     buf = BytesIO()
     plt.savefig(buf, format='png')
     buf.seek(0)
-    plt.close()
+    plt.close();
     return buf
 
 def translate_day(day):
