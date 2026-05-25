@@ -368,7 +368,7 @@ def handle_clear(call):
 if __name__ == '__main__':
     print("Инициализация БД...")
     db_handler.init_db()
-    # db_handler.load_test_data()
+    #db_handler.load_test_data()
     
     
     commands = [
